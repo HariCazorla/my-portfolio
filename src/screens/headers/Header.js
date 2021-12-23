@@ -10,7 +10,12 @@ function Header() {
                 strings={
                     [
                         "A Software Engineer",
-                        "Specialized in Distributed Systems"
+                        " ",
+                        " ",
+                        "Specialization in Distributed Systems",
+                        " ",
+                        " ",
+                        "A Passionate Developer"
                     ]}
                 typeSpeed={40}
                 backSpeed={40}
