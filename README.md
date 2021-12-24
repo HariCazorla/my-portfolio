@@ -13,3 +13,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+#packages used
+
+<Li> https://www.npmjs.com/search?q=react-particle-animation
+<Li> https://www.npmjs.com/package/react-typed
+<Li> 
