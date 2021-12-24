@@ -1,21 +1,39 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portfolio website created using React. It is hosted using github pages, click [here](https://haricazorla.github.io/my-portfolio/) to check it.
 
-## Available Scripts
+# To run locally
+```
+npm start run
+```
 
-In the project directory, you can run:
+# Steps to host on Github pages
 
-### `npm start`
+<Li> Add github pages dependency
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+npm i gh-pages
+```
+<Li>Add two keys 'predeploy' and 'deploy' to 'scripts' section in the package.json file
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-#packages used
-
-<Li> https://www.npmjs.com/search?q=react-particle-animation
-<Li> https://www.npmjs.com/package/react-typed
-<Li> 
+ "scripts": {
+  
+    "start": "react-scripts start",
+  
+    "predeploy": "npm run build", 
+  
+    "deploy": "gh-pages -d build", 
+  
+    "build": "react-scripts build",
+  
+    "test": "react-scripts test",
+  
+    "eject": "react-scripts eject"
+  
+  }
+  
+<Li> Add a key called 'homepage' to package.json file
+  
+```
+  "homepage": "https://haricazorla.github.io/my-portfolio/",
+```
