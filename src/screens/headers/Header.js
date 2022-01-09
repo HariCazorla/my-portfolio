@@ -5,7 +5,7 @@ import './header.css'
 function Header() {
     return (
         <div className="personal__info ">
-            <h1>What am I?</h1>
+            <h1>Who am I?</h1>
             <Typed
                 strings={
                     [
