@@ -1,7 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
 import './header.css'
-
 function Header() {
     return (
         <div className="personal__info ">
