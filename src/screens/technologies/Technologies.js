@@ -21,48 +21,72 @@ import { FaJenkins } from 'react-icons/fa';
 import { FaBootstrap } from 'react-icons/fa';
 import { GrVmware } from 'react-icons/gr';
 import {SiGnubash} from 'react-icons/si'
+import {SiCplusplus} from 'react-icons/si'
+import {SiJava} from 'react-icons/si'
+import {SiPostgresql} from 'react-icons/si'
+import {SiMysql} from 'react-icons/si'
+import {SiMongodb} from 'react-icons/si'
+import {SiCss3} from 'react-icons/si'
+import {SiOracle} from 'react-icons/si'
+import {SiJavascript} from 'react-icons/si'
 
 function getIcon(name) {
     if (name ==='IoLogoGithub') {
-        return <IoLogoGithub size={80}></IoLogoGithub>
+        return <IoLogoGithub size={40}></IoLogoGithub>
     } else if (name ==='FaGitlab') {
-        return <FaGitlab size={80}></FaGitlab>
+        return <FaGitlab size={40}></FaGitlab>
+    } else if (name ==='SiJavascript') {
+        return <SiJavascript size={40}></SiJavascript>
+    } else if (name ==='SiOracle') {
+        return <SiOracle size={40}></SiOracle>
+    } else if (name ==='SiCss3') {
+        return <SiCss3 size={40}></SiCss3>
     } else if (name ==='SiRabbitmq') {
-        return <SiRabbitmq size={80}></SiRabbitmq>
+        return <SiRabbitmq size={40}></SiRabbitmq>
     } else if (name ==='SiPrometheus') {
-        return <SiPrometheus size={80}></SiPrometheus>
+        return <SiPrometheus size={40}></SiPrometheus>
     } else if (name ==='SiGrafana') {
-        return <SiGrafana size={80}></SiGrafana>
+        return <SiGrafana size={40}></SiGrafana>
     } else if (name ==='FaPython') {
-        return <FaPython size={80}></FaPython>
+        return <FaPython size={40}></FaPython>
     } else if (name ==='SiSpringboot') {
-        return <SiSpringboot size={80}></SiSpringboot>
+        return <SiSpringboot size={40}></SiSpringboot>
     } else if (name ==='SiKubernetes') {
-        return <SiKubernetes size={80}></SiKubernetes>
+        return <SiKubernetes size={40}></SiKubernetes>
     } else if (name ==='SiInfluxdb') {
-        return <SiInfluxdb size={80}></SiInfluxdb>
+        return <SiInfluxdb size={40}></SiInfluxdb>
     } else if (name ==='SiVirtualbox') {
-        return <SiVirtualbox size={80}></SiVirtualbox>
+        return <SiVirtualbox size={40}></SiVirtualbox>
     } else if (name ==='SiVagrant') {
-        return <SiVagrant size={80}></SiVagrant>
+        return <SiVagrant size={40}></SiVagrant>
     } else if (name ==='SiApachemaven') {
-        return <SiApachemaven size={80}></SiApachemaven>
+        return <SiApachemaven size={40}></SiApachemaven>
     } else if (name ==='FaReact') {
-        return <FaReact size={80}></FaReact>
+        return <FaReact size={40}></FaReact>
     } else if (name ==='FaHtml5') {
-        return <FaHtml5 size={80}></FaHtml5>
+        return <FaHtml5 size={40}></FaHtml5>
     } else if (name ==='FaAws') {
-        return <FaAws size={80}></FaAws>
+        return <FaAws size={40}></FaAws>
     } else if (name ==='FaJenkins') {
-        return <FaJenkins size={80}></FaJenkins>
+        return <FaJenkins size={40}></FaJenkins>
     } else if (name ==='FaBootstrap') {
-        return <FaBootstrap size={80}></FaBootstrap>
+        return <FaBootstrap size={40}></FaBootstrap>
     } else if (name ==='GrVmware') {
-        return <GrVmware size={80}></GrVmware>
+        return <GrVmware size={40}></GrVmware>
     } else if (name ==='FaDocker') {
-        return <FaDocker size={80}></FaDocker>
+        return <FaDocker size={40}></FaDocker>
     } else if (name === 'SiGnubash') {
-        return <SiGnubash size={80}></SiGnubash>
+        return <SiGnubash size={40}></SiGnubash>
+    } else if (name === 'SiCplusplus') {
+        return <SiCplusplus size={40}></SiCplusplus>
+    } else if (name === 'SiJava') {
+        return <SiJava size={40}></SiJava>
+    } else if (name === 'SiPostgresql') {
+        return <SiPostgresql size={40}></SiPostgresql>
+    } else if (name === 'SiMysql') {
+        return <SiMysql size={40}></SiMysql>
+    } else if (name === 'SiMongodb') {
+        return <SiMongodb size={40}></SiMongodb>
     }
 }
 

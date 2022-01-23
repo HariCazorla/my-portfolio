@@ -28,6 +28,14 @@ export const technologies = [
         iconName: 'SiGrafana'
     },
     {
+        name: 'Cpp',
+        iconName: 'SiCplusplus'
+    },
+    {
+        name: 'JAVA',
+        iconName: 'SiJava'
+    },
+    {
         name: 'Python',
         iconName: 'FaPython'
     },
@@ -36,16 +44,32 @@ export const technologies = [
         iconName: 'SiSpringboot'
     },
     {
-        name: 'React',
-        iconName: 'FaReact'
-    },
-    {
         name: 'HTML',
         iconName: 'FaHtml5'
     },
     {
+        name: 'CSS3',
+        iconName: 'SiCss3'
+    },
+    {
+        name: 'Bootstrap',
+        iconName: 'FaBootstrap'
+    },
+    {
+        name: 'Javascript',
+        iconName: 'SiJavascript'
+    },
+    {
+        name: 'React',
+        iconName: 'FaReact'
+    },
+    {
         name: 'AWS',
         iconName: 'FaAws'
+    },
+    {
+        name: 'Orcale Cloud Infrastructure',
+        iconName: 'SiOracle'
     },
     {
         name: 'Jenkins',
@@ -56,8 +80,16 @@ export const technologies = [
         iconName: 'SiGnubash'
     },
     {
-        name: 'Bootstrap',
-        iconName: 'FaBootstrap'
+        name: 'Postgres',
+        iconName: 'SiPostgresql'
+    },
+    {
+        name: 'MySQL',
+        iconName: 'SiMysql'
+    },
+    {
+        name: 'MongoDB',
+        iconName: 'SiMongodb'
     },
     {
         name: 'InfluxDB',

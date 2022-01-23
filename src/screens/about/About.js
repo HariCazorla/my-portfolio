@@ -11,8 +11,8 @@ function About() {
             <div className='about__text'>
                 <h1>About Me</h1>
                 <p>Applying simple, yet comprehensive algorithms to solve real-world problems fascinate me. Over the course of
-time, I have enjoyed learning programming languages such as C++, JAVA, and Python. Currently, I am pursuing my
-specialization in Distributed Systems Engineering and this has been a wonderful experience so far and it has
+time, I have enjoyed learning programming languages such as C++, JAVA, and Python. I have 3 years of experience as Systems/Software engineer at Micro Focus, and completed internships at Dell Inc and Fraunhofer IVI. Currently, I am pursuing my
+specialization in Distributed Systems Engineering at TU Dresden and this has been a wonderful experience so far and it has
 enabled me to think at scale in approaching any problem scenario.</p>
 
                 <p>My primary area of focus is the development of scalable, highly available fault-tolerant services. I am someone who never
