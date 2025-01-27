@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Trigger the deployment on pushes to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # Runs the job on an Ubuntu machine
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2  # Check out your repository
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'  # Specify the version of Node.js you're using
+
+    - name: Install dependencies
+      run: |
+        npm install  # Install the necessary dependencies for your app
+
+    - name: Build the app
+      run: |
+        npm run build  # Build your React app
+
+    - name: Deploy to GitHub Pages
+      run: |
+        npm run deploy  # Run the deploy script to push to GitHub Pages
+      env:
+        CI: false  # Disable the CI environment variable to prevent React from running in CI mode
+
+    - name: Clean up
+      run: |
+        rm -rf node_modules  # Clean up the node_modules directory to reduce the repo size (optional)
