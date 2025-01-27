@@ -10,14 +10,14 @@ function About() {
             </div>            
             <div className='about__text'>
                 <h1>About Me</h1>
-                <p>Applying simple, yet comprehensive algorithms to solve real-world problems fascinate me. Over the course of
-time, I have enjoyed learning programming languages such as C++, JAVA, and Python. I have 3 years of experience as Systems/Software engineer at Micro Focus, and completed internships at Dell Inc and Fraunhofer IVI. Currently, I am pursuing my
-specialization in Distributed Systems Engineering at TU Dresden and this has been a wonderful experience so far and it has
-enabled me to think at scale in approaching any problem scenario.</p>
+                <p>I am passionate about applying simple yet effective algorithms to solve real-world problems. With over 7 years of experience
+        as a Software Engineer at leading companies such as Micro Focus, Dell, SAP, Fraunhofer IVI, and currently at 1&1, I have honed my skills
+        in building scalable and efficient solutions. My specialization in Distributed Systems Engineering, backed by a Master’s degree from TU
+        Dresden, has been a transformative experience that enables me to approach complex problems with a large-scale mindset.</p>
 
-                <p>My primary area of focus is the development of scalable, highly available fault-tolerant services. I am someone who never
-hesitates to learn new things and likes challenging work, and like to be a part of all aspects of the software
-development process, ranging from development, testing and CI/CD aspects.</p>
+                <p>My primary focus is on developing robust distributed systems that ensure seamless scalability and resilience. I thrive on 
+            challenging work and never hesitate to learn new technologies and methodologies. I enjoy being involved in all aspects of the software
+                development lifecycle, from development and testing to CI/CD, ensuring that the solutions I build are both efficient and reliable.</p>
             </div>
         </div>
     )
